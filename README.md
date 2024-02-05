@@ -1,2 +1,6 @@
 # Algoritmo-AES
 Algoritmo AES en arquitectura de 8 bits usando una FPGA
+
+El algoritmo algoritmo AES adopta una forma de ronda compuesta de cuatro transformaciones uniformes e invertibles que garantizan difusión sobre el conjunto total de rondas fijadas y propiedades de alinealidad. Por lo que, resulta muy atractivo para una implementación eficiente sobre un amplio rango de procesadores y hardware dedicado. Entre las cuales destaca la categoría de lógica programable que consta de dispositivos que se pueden personalizar desde el exterior mediante técnicas de programación. 
+Los FPGA se presentan como la mejor alternativa de diseño para algoritmos como AES debido fundamentalmente a su potencial para reprogramación rápida y de bajo costo. Esta propiedad se asocia por ejemplo a la experimentación de numerosas arquitecturas o variantes de una misma arquitectura. Además, al ser implementado físicamente no puede ser leídos o modificados fácilmente desde un ataque exterior, lo cual brinda una mayor seguridad.
+Este proyecto se presenta como una implementación en un FPGA Spartan-6 LX45 del algoritmo AES-128 en una arquitectura de 8 bits, programado en el lenguaje de descripción de hardware VHDL utilizando el software ISE Design Suite 14.7.
